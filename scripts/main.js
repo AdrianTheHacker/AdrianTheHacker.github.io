@@ -5,15 +5,14 @@ var typewriter = new Typewriter(app, {
   delay: 75,
 });
 
-const frcString = 'FIRST Robotics Alumni';
-const educationString = 'UofWat EE Class of 2029';
-const jobString = 'Lifeguard and Swim Instructor';
-const electronicsString = 'Electronics Enthusiast';
-const programmingString = 'Hobby Programmer';
+const educationString = 'UWaterloo EE Class of 2029⚡';
+const futureJob  = 'Aspiring Controls Systems Engineer🤖';
+const programmingLanguages = 'Experienced in C++, Python, Java🧑‍💻'
+const hobby = 'Avid Snowboarder🏂';
 
-const startTime = 500;
+const startTime = 250;
 const fullTime = 300;
-const emptyTime = 500;
+const emptyTime = 250;
 
 typewriter
   .pauseFor(startTime)
@@ -22,24 +21,19 @@ typewriter
   .deleteChars(educationString.length)
   .pauseFor(emptyTime)
 
-  .typeString(frcString)
+  .typeString(futureJob)
   .pauseFor(fullTime * 3)
-  .deleteChars(frcString.length)
+  .deleteChars(futureJob.length)
   .pauseFor(emptyTime)
   
-  .typeString(jobString)
+  .typeString(programmingLanguages)
   .pauseFor(fullTime * 3)
-  .deleteChars(jobString.length)
+  .deleteChars(programmingLanguages.length)
   .pauseFor(emptyTime)
 
-  .typeString(electronicsString)
+  .typeString(hobby)
   .pauseFor(fullTime * 3)
-  .deleteChars(electronicsString.length)
-  .pauseFor(emptyTime)
-
-  .typeString(programmingString)
-  .pauseFor(fullTime * 3)
-  .deleteChars(programmingString.length)
+  .deleteChars(hobby.length)
   .pauseFor(emptyTime)
 
   .start();
