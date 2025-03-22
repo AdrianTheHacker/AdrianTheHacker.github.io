@@ -15,6 +15,7 @@ const ProfileContainer = () => {
           <IconButton imagePath="/githubIcon.png" url="https://github.com/AdrianTarantino" />
           <IconButton imagePath="/linkedInIcon.png" url="https://www.linkedin.com/in/adriantarantino/" />
           <IconButton imagePath="/mailIcon.png" url="mailto:adriantarantino2006@gmail.com" />
+          <IconButton imagePath="/youtubeIcon.png" url="https://www.youtube.com/@AdrianTheHacker" />
         </div>
       </div>
     </div>
