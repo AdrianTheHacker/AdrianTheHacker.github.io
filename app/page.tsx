@@ -15,9 +15,9 @@ export default function Home() {
             <h1 className="text-5xl font-bold">Adrian Tarantino</h1>
             <p className="py-6">First Year Electrical Engineering Student at The University of Waterloo</p>
             <div className="flex w-auto items-center gap-5">
-              <IconButton imagePath="/githubIcon.png" url="https://github.com/AdrianTarantino" />
+              <IconButton imagePath="/githubIcon.png" url="https://github.com/AdrianTheHacker" />
               <IconButton imagePath="/linkedInIcon.png" url="https://www.linkedin.com/in/adriantarantino/" />
-              <IconButton imagePath="/mailIcon.png" url="mailto:adriantarantino2006@gmail.com" />
+              <IconButton imagePath="/mailIcon.png" url="mailto:adrian.tarantino.career@gmail.com" />
               <IconButton imagePath="/youtubeIcon.png" url="https://www.youtube.com/@AdrianTheHacker" />
             </div>
           </div>
