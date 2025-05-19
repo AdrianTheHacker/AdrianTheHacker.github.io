@@ -32,7 +32,7 @@ export default function RootLayout({
         <meta name="author" content="Adrian Tarantino" />
         <title>Adrian Tarantino - Personal Website</title>
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased lg:overflow-x-hidden md:overflow-x-hidden`}>
         {children}
       </body>
     </html>

@@ -6,6 +6,10 @@ const TextContainer = () => {
   return (
     <div className="hero bg-base-100 min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse lg:w-1/2 md:w-11/12 sm:w-11/12">
+        {/* <img
+          src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+          className="max-w-sm rounded-lg shadow-2xl"
+        /> */}
         <div>
           <h1 className="text-3xl font-bold">
             <TypeAnimation
