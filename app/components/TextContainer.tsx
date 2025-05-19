@@ -4,26 +4,47 @@ import { TypeAnimation } from 'react-type-animation';
 
 const TextContainer = () => {
   return (
-    <>
-      <TypeAnimation
-        sequence={[
-          'Aspiring Control Systems Engineer🔧',
-          1000,
-          'Experienced in C++, Python and Java👨‍💻',
-          1000,
-          'Avid Snowboarder🏂',
-          1000
-        ]}
-        wrapper="span"
-        speed={50}
-        style={{ fontSize: '2em', display: 'inline-block' }}
-        repeat={Infinity}
-      />
-      <p className="text-2xl text-justify">
-        Hello everyone!
-        My name's Adrian Tarantino. I'm a first year Electrical Engineering student at the University of Waterloo. I'm interested in pursuing a career in control systems or automation. In my spare time I enjoy snowboarding, programming, and tinkering with electronics.
-      </p>
-    </>
+    <div className="hero bg-base-100 min-h-screen">
+      <div className="hero-content flex-col lg:flex-row-reverse lg:w-1/2 md:w-11/12 sm:w-11/12">
+        <div>
+          <h1 className="text-3xl font-bold">
+            <TypeAnimation
+              sequence={[
+                'Aspiring engineer🔧',
+                1000,
+                'Aspiring entrepreneur🧑‍💼',
+                1000,
+                'Aspiring problem solver🧩',
+                1000,
+                'I know Altium Designer⚡',
+                1000, 
+                'I know Breadboarding⚡',
+                1000,
+                'I know C++ & Python👨‍💻',
+                1000,
+                'I know Next.JS & Firebase👨‍💻',
+                1000,
+                'My hobby is Snowboarding🏂',
+                1000,
+                'My hobby is making🤖',
+                1000,
+                'My hobby is tinkering🔌',
+                1000
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ display: 'inline-block' }}
+              repeat={Infinity}
+            />
+          </h1>
+          <p className="text-xl text-left">
+            Hello everyone! My name is Adrian Tarantino. I'm an electrical engineering student at the University of Waterloo, 
+            interested in pursuing a career in circuit design or firmware development for robotics or biomedical applications.
+            In my spare time I enjoy snowboarding, programming, and tinkering with electronics.
+          </p>
+        </div>
+      </div>
+    </div>
   )
 }
 
